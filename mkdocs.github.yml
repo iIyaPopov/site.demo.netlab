@@ -1,0 +1,20 @@
+site_name: demo.netlab
+docs_dir: docs
+site_url: https://iiyapopov.github.io/site.demo.netlab/
+theme:
+  name: material
+  palette:
+    primary: brown
+    accent: brown
+  font:
+    text: Noto Sans
+    code: Noto Mono
+  features:
+    - navigation.tabs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
